@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<ArrayOfAirplane xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Airplane>
+    <ID>123</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>A</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1954</YearOfFoundation>
+      <types>
+        <string>passenger</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Антонович</NameFirst>
+        <NameSecond>Татьяна</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Вырковский</NameFirst>
+        <NameSecond>Виталий</NameSecond>
+        <Experience>3</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>male</Sex>
+        <Position>steward</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Татьяна</Captain>
+    <SecondPilot />
+  </Airplane>
+  <Airplane>
+    <ID>123</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>B</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1964</YearOfFoundation>
+      <types>
+        <string>cargo</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Антонович</NameFirst>
+        <NameSecond>Татьяна</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Реут</NameFirst>
+        <NameSecond>Ксения</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>second pilot</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Татьяна</Captain>
+    <SecondPilot>Ксения</SecondPilot>
+  </Airplane>
+  <Airplane>
+    <ID>1233</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>B</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1964</YearOfFoundation>
+      <types>
+        <string>cargo</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Реут</NameFirst>
+        <NameSecond>Ксения</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>second pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Пунько </NameFirst>
+        <NameSecond>Алина</NameSecond>
+        <Experience>3</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Алина</Captain>
+    <SecondPilot>Ксения</SecondPilot>
+  </Airplane>
+  <Airplane>
+    <ID>1233</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>B</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1964</YearOfFoundation>
+      <types>
+        <string>cargo</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Реут</NameFirst>
+        <NameSecond>Ксения</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>second pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Пунько </NameFirst>
+        <NameSecond>Алина</NameSecond>
+        <Experience>3</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Алина</Captain>
+    <SecondPilot>Ксения</SecondPilot>
+  </Airplane>
+  <Airplane>
+    <ID>123</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>A</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1954</YearOfFoundation>
+      <types>
+        <string>passenger</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Антонович</NameFirst>
+        <NameSecond>Татьяна</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Вырковский</NameFirst>
+        <NameSecond>Виталий</NameSecond>
+        <Experience>3</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>male</Sex>
+        <Position>steward</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Татьяна</Captain>
+    <SecondPilot />
+  </Airplane>
+  <Airplane>
+    <ID>123</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6</Capacity>
+    <Model>
+      <CompanyName>B</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1964</YearOfFoundation>
+      <types>
+        <string>cargo</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Антонович</NameFirst>
+        <NameSecond>Татьяна</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Реут</NameFirst>
+        <NameSecond>Ксения</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>second pilot</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Татьяна</Captain>
+    <SecondPilot>Ксения</SecondPilot>
+  </Airplane>
+  <Airplane>
+    <ID>1233</ID>
+    <Type>passenger</Type>
+    <CountOfSpaces>6</CountOfSpaces>
+    <DateOfConstruction>11 марта 2019 г.</DateOfConstruction>
+    <Capacity>6666</Capacity>
+    <Model>
+      <CompanyName>B</CompanyName>
+      <Country>Минск</Country>
+      <YearOfFoundation>1964</YearOfFoundation>
+      <types>
+        <string>cargo</string>
+      </types>
+    </Model>
+    <listOfCrewman>
+      <Crewman>
+        <NameFirst>Антонович</NameFirst>
+        <NameSecond>Татьяна</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>pilot</Position>
+      </Crewman>
+      <Crewman>
+        <NameFirst>Реут</NameFirst>
+        <NameSecond>Ксения</NameSecond>
+        <Experience>0</Experience>
+        <DateOfBirth>11 марта 2019 г.</DateOfBirth>
+        <Sex>female</Sex>
+        <Position>second pilot</Position>
+      </Crewman>
+    </listOfCrewman>
+    <Captain>Татьяна</Captain>
+    <SecondPilot>Ксения</SecondPilot>
+  </Airplane>
+</ArrayOfAirplane>

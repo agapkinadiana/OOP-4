@@ -1,0 +1,36 @@
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\bin\Debug\OOP_07.exe.config
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\bin\Debug\OOP_07.exe
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\bin\Debug\OOP_07.pdb
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.csprojAssemblyReference.cache
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\MainWindow.g.cs
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\UserControl1.g.cs
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\App.g.cs
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07_MarkupCompile.cache
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07_MarkupCompile.lref
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\MainWindow.baml
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\UserControl1.baml
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.g.resources
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.Properties.Resources.resources
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.csproj.GenerateResource.cache
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.csproj.CoreCompileInputs.cache
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.exe
+G:\УЧЁБА\ООП_CS (Forms)\OOP_07\OOP_07\obj\Debug\OOP_07.pdb
+\\Mac\Home\Desktop\OOP_07\OOP_07\bin\Debug\OOP_07.exe.config
+\\Mac\Home\Desktop\OOP_07\OOP_07\bin\Debug\OOP_07.exe
+\\Mac\Home\Desktop\OOP_07\OOP_07\bin\Debug\OOP_07.pdb
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\MainWindow.g.cs
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\UserControl1.g.cs
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\App.g.cs
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\GeneratedInternalTypeHelper.g.cs
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07_MarkupCompile.cache
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07_MarkupCompile.lref
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\MainWindow.baml
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\UserControl1.baml
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.g.resources
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.Properties.Resources.resources
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.exe
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.pdb
+\\Mac\Home\Desktop\OOP_07\OOP_07\obj\Debug\OOP_07.csprojAssemblyReference.cache

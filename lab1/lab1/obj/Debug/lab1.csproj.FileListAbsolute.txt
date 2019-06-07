@@ -1,0 +1,11 @@
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\bin\Debug\lab1.exe.config
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\bin\Debug\lab1.exe
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\bin\Debug\lab1.pdb
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.Form1.resources
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.Properties.Resources.resources
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.exe
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.pdb
+\\Mac\Home\Desktop\STUDY\4 term\OOP\lab1\lab1\obj\Debug\lab1.Form2.resources

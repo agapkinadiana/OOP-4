@@ -1,0 +1,127 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        
+        mc:Ignorable="d"
+        Loaded="TextEditLoad"
+        Title="TextEditor" Height="423" Width="616" Background="White" Foreground="Black">
+    <Window.Resources>
+        <Style TargetType="MenuItem">
+            <Setter Property="Background" Value="#FFECC4C2"></Setter>
+        </Style>
+    </Window.Resources>
+    <Window.Icon>
+        <BitmapImage UriSource="file://mac/Home/Desktop/STUDY/4 term/OOP/lab4-5/note.ico"/>
+    </Window.Icon>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="39*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="43*"/>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="564*"/>
+        </Grid.ColumnDefinitions>
+        <Menu HorizontalAlignment="Left" Style="{DynamicResource MenuTheme}" Height="20" VerticalAlignment="Top" Width="608" Grid.ColumnSpan="3">
+            <MenuItem Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _File}" Height="20" Width="45">
+                <MenuItem x:Name="New" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _New}" HorizontalAlignment="Left" Height="20" Width="140" Click="NewWind"/>
+                <MenuItem x:Name="Create" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Create}" HorizontalAlignment="Left" Height="20" Width="140" Click="Create_Click"/>
+                <MenuItem x:Name="Open" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Open}" HorizontalAlignment="Left" Height="20" Width="140" Click="Open_Click"/>
+                <MenuItem x:Name="Save" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Save}" HorizontalAlignment="Left" Height="20" Width="140" Click="Save_Click"/>
+                <MenuItem x:Name="Print" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Print}" HorizontalAlignment="Left" Height="20" Width="140" Click="Print_Click"/>
+                <MenuItem x:Name="Exit" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Exit}" HorizontalAlignment="Left" Height="20" Width="140" Click="Exit_Click"/>
+            </MenuItem>
+            <MenuItem Header="{DynamicResource _Edit}" Style="{DynamicResource MenuItemTheme}" Height="20" Width="45" Click="MenuItem_Click_1">
+                <MenuItem x:Name="Cancel" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Cancel}" HorizontalAlignment="Left" Height="20" Width="140" Click="Cancel_Click"/>
+                <MenuItem x:Name="Cut" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Cut}" HorizontalAlignment="Left" Height="20" Width="140" Click="Cut_Click"/>
+                <MenuItem x:Name="Copy" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Copy}" HorizontalAlignment="Left" Height="20" Width="140" Click="Copy_Click"/>
+                <MenuItem x:Name="Insert" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Insert}" HorizontalAlignment="Left" Height="20" Width="140" Click="Insert_Click"/>
+                <MenuItem x:Name="Date" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Date}" HorizontalAlignment="Left" Height="20" Width="167" Margin="0,0,-27,0" Click="Date_Click"/>
+            </MenuItem>
+            <MenuItem Header="{DynamicResource _Text}" Style="{DynamicResource MenuItemTheme}" Height="20" Width="45">
+                <MenuItem Header="{DynamicResource _Bold}" Style="{DynamicResource MenuItemTheme}" Command="EditingCommands.ToggleBold" HorizontalAlignment="Left" Height="20" Width="140"/>
+                <MenuItem Header="{DynamicResource _Italic}" Style="{DynamicResource MenuItemTheme}" Command="EditingCommands.ToggleItalic" HorizontalAlignment="Left" Height="20" Width="140"/>
+                <MenuItem Header="{DynamicResource _Underline}" Style="{DynamicResource MenuItemTheme}" Command="EditingCommands.ToggleUnderline" HorizontalAlignment="Left" Height="20" Width="140"/>
+            </MenuItem>
+            <MenuItem Header="{DynamicResource _Lang}" Style="{DynamicResource MenuItemTheme}" Height="20" Width="65">
+                <MenuItem x:Name="SetEng" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Eng}" HorizontalAlignment="Left" Height="20" Width="140" Click="SetEng_Click"/>
+                <MenuItem x:Name="SetRus" Style="{DynamicResource MenuItemTheme}" Header="{DynamicResource _Ru}" HorizontalAlignment="Left" Height="20" Width="140" Click="SetRus_Click"/>
+            </MenuItem>
+            <ComboBox Style="{DynamicResource ComboBoxTheme}" x:Name="listPaths" SelectionChanged="listPaths_SelectionChanged" Width="100"/>
+            <Path x:Name="CustomControl" Data="M-1.5,4 C-1.5,4 2,-1 2,-1 5,3.75 5,3.75 5,3.75 L8,3.75 9.25,3.75 12.5,-1.25 C12.5,-1.25 14.75,2.125 15.5,2.875 16.25,3.625 8.5,10.125 8.25,10.875 8,11.625 -1.5,4 -1.5,4 z" Fill="#FFF4F4F5" Height="13.177" Stretch="Fill" Stroke="Gray" Width="18.051" PreviewMouseDown="CustomControl_PreviewMouseDown"/>
+        </Menu>
+        <Label Style="{DynamicResource LabelTheme}" HorizontalAlignment="Left" Margin="0,20,0,0" VerticalAlignment="Top" Height="40" Width="386" Grid.ColumnSpan="3">
+            <ToolBarTray Style="{DynamicResource ToolBarTrayTheme}" Height="36" Width="378" >
+                <ToolBar HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="143" Margin="0,0,-119,-13" RenderTransformOrigin="0.496,0.781" Background="White">
+                    <Button ToolTip="Open file" Click="Open_Click" Height="22" VerticalAlignment="Top" Width="22">
+                        <Button.Background>
+                            <ImageBrush ImageSource="\\Mac\Home\Desktop\STUDY\4 term\OOP\lab4-5\open.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button ToolTip="Save file" Click="Save_Click" Height="22" VerticalAlignment="Top" Width="22">
+                        <Button.Background>
+                            <ImageBrush ImageSource="\\Mac\Home\Desktop\STUDY\4 term\OOP\lab4-5\save.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button ToolTip="Print file" Click="Print_Click" Height="22" VerticalAlignment="Top" Width="25" Margin="0,0,0,-5">
+                        <Button.Background>
+                            <ImageBrush ImageSource="\\Mac\Home\Desktop\STUDY\4 term\OOP\lab4-5\print.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button ToolTip="Cancel" Click="Cancel_Click" Height="22" VerticalAlignment="Top" Width="22">
+                        <Button.Background>
+                            <ImageBrush ImageSource="\\Mac\Home\Desktop\STUDY\4 term\OOP\lab4-5\cancell.png" />
+                        </Button.Background>
+                    </Button>
+                    <Button ToolTip="Return" Click="Button_Click" Height="22" VerticalAlignment="Top" Width="22" >
+                        <Button.Background>
+                            <ImageBrush ImageSource="\\Mac\Home\Desktop\STUDY\4 term\OOP\lab4-5\return.png" />
+                        </Button.Background>
+                    </Button>
+                </ToolBar>
+                <ToolBar HorizontalAlignment="Left" Height="26" Margin="122,0,-168,0" VerticalAlignment="Top" Width="74" RenderTransformOrigin="0.49,-0.154" Background="White">
+                    <Button FontWeight="Bold" ToolTip="Bold" Command="EditingCommands.ToggleBold">
+                        <Bold>B</Bold>
+                    </Button>
+                    <Button FontStyle="Italic" ToolTip="Italic" Command="EditingCommands.ToggleItalic" xml:space="preserve" Width="18">
+                        <Italic>I</Italic>
+                    </Button>
+                    <Button ToolTip="Underline" Command="EditingCommands.ToggleUnderline">
+                        <Underline>U</Underline>
+                    </Button>
+                </ToolBar>
+                <ToolBar ComboBox.SelectionChanged="ToolBar_SelectionChanged_1" Width="144" Margin="175,0,-144,0" Background="White" HorizontalAlignment="Left">
+                    <ComboBox x:Name="fonts"
+                          MinWidth="80"
+                          ItemsSource="{x:Static Fonts.SystemFontFamilies }" 
+                          ToolTip="Font"/>
+                    <ComboBox x:Name="fontSize"
+                          MinWidth="40"
+                          ToolTip="Font size"/>
+                    <ComboBox x:Name="fontColor"
+                          MinWidth="40"
+                          ToolTip="Color"/>
+                    <ComboBox x:Name="fontColor2"
+                          MinWidth="40"
+                          ToolTip="Color highlighting"/>
+                </ToolBar>
+            </ToolBarTray>
+        </Label>
+        <Label Style="{DynamicResource LabelTheme}" x:Name="label2" Content="" HorizontalAlignment="Left" Margin="0,282,0,-5" VerticalAlignment="Top" Height="35" Width="608" Grid.ColumnSpan="3" RenderTransformOrigin="0.51,0.958" Grid.Row="1"/>
+        <RichTextBox Style="{DynamicResource RichTextBoxTheme}" x:Name="richtextBox1" Margin="0,4,0,20" Grid.ColumnSpan="3" SelectionBrush="#FFECC4C2" PreviewKeyDown="RichtextBox1_PreviewKeyDown" Grid.Row="1">
+            <FlowDocument/>
+        </RichTextBox>
+        <WrapPanel Style="{DynamicResource WrapPanelTheme}" HorizontalAlignment="Left" Height="24" Margin="0,60,0,0" VerticalAlignment="Top" Width="608" RenderTransformOrigin="0.5,0.41" Grid.ColumnSpan="3" Grid.RowSpan="2">
+            <Button Template="{StaticResource btTemplate}" Margin="4,0,0,0"/>
+            <CheckBox BorderBrush="LightGray" BorderThickness="1"  Name="checkbox1" Width="75" Margin="17,3,0,0"/>
+            <Button BorderBrush="LightGray"  BorderThickness="1" Background="White" Content="Click" Margin="-40,1,0,0" Width="75"/>
+        </WrapPanel>
+        <Label Style="{DynamicResource LabelTheme}" Grid.Column="2" HorizontalAlignment="Left" Margin="211,20,0,0" VerticalAlignment="Top" Width="222" Height="40">
+            <ComboBox Background="White" Name="styleBox" Margin="130,3,0,0" HorizontalAlignment="Left" MinWidth="70" Padding="5"  FontSize="12" TabIndex="0" Width="43" Height="23"/>
+        </Label>
+    </Grid>
+</Window>
